@@ -1,0 +1,23 @@
+apiVersion: 1
+providers:
+  - name: 'default'
+    orgId: 1
+    folder: ''
+    type: file
+    options:
+      path: /var/lib/grafana/dashboards
+      default_home_dashboard_path: /var/lib/grafana/dashboards/statistic.json
+  - name: 'advertiser'
+    orgId: 1
+    folder: ''
+    type: file
+    options:
+      path: /var/lib/grafana/dashboards
+      default_home_dashboard_path: /var/lib/grafana/dashboards/advertiser.json
+  - name: 'backend'
+    orgId: 1
+    folder: ''
+    type: file
+    options:
+      path: /var/lib/grafana/dashboards
+      default_home_dashboard_path: /var/lib/grafana/dashboards/backend.json

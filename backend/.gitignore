@@ -1,0 +1,5 @@
+.env
+.env.development
+__pycache__/
+.venv/
+data/
